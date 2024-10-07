@@ -5,8 +5,8 @@ function convertToBool(text, fault = 'true') {
 }
 
 module.exports = {
-SESSION_ID: process.env.SESSION_ID === undefined ? 'VAJIRA-MD=zENUmD5D#F88dNDhdVcVmgHKJ12a75NRdfyaoA6XFCDaUszneTLA' : process.env.SESSION_ID,
-OWNER_NUMBER: process.env.OWNER_NUMBER === undefined ? '94710513877' : process.env.OWNER_NUMBER,   
+SESSION_ID: process.env.SESSION_ID === undefined ? 'VAJIRA-MD=WNsgTCQA#6U23d9Nx-I5-q_3WJxL5LhrJXYVSh6KXMdfE2jniLIw' : process.env.SESSION_ID,
+OWNER_NUMBER: process.env.OWNER_NUMBER === undefined ? '94776928548' : process.env.OWNER_NUMBER,   
 ONLY_GROUP: process.env.ONLY_GROUP === undefined ? 'false' : process.env.ONLY_GROUP,
 ONLY_ME: process.env.ONLY_ME === undefined ? 'false' : process.env.ONLY_ME,
 AUTO_STATUS_READ:  process.env.AUTO_STATUS_READ  || true  ,    
@@ -17,7 +17,7 @@ MAX_SIZE: 500,
 ALIVE:  process.env.ALIVE  || ''  ,    
 OWNER_REACT:  process.env.OWNER_REACT  || true  ,
 ADMIN_EVENT:  process.env.ADMIN_EVENT  || true  ,   
-AUTO_BLOCK:  process.env.AUTO_BLOCK  || false  ,        
+AUTO_BLOCK:  process.env.AUTO_BLOCK  || true  ,        
 AUTO_VOICE:  process.env.AUTO_VOICE  || true  ,
 AUTO_STICKER: process.env.AUTO_STICKER || false  ,    
 ANTI_BAD: process.env.ANTI_BAD || false  ,
